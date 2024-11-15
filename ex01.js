@@ -1,6 +1,8 @@
-function greetings(firstname) {
-	return ""+ firstname ;
-}
 
-console.log(greetings("Bienvenue, !")); // Résultat attendu: "Bienvenue, !"
-console.log(greetings("Ben")); 
+function greetings(firstname) {
+    ( "Bienvenue, !")
+        return ("Bienvenue, " + firstname +" !")
+    }
+    
+    console.log(greetings("")); 
+    console.log(greetings("Ben"));
